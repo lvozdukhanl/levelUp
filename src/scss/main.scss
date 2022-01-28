@@ -1,0 +1,17 @@
+@import "libs/libs";
+@import './vars/fonts';
+@import './vars/colors';
+@import './vars/mixins';
+@import "helpers";
+@import "animation";
+
+@import "interface";
+
+// сюда подлючаем файлы стилей
+
+@import "src/scss/pages/general/header/header";
+@import "src/scss/pages/main/compound";
+@import "src/scss/pages/main/reviews";
+@import "src/scss/pages/main/description";
+@import "src/scss/pages/main/feedback";
+
